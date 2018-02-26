@@ -27,7 +27,7 @@
                 android:id="@+id/btn_play_and_pause"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="@{viewModel.setPlayState()}"
+                android:onClick="@{()->viewModel.setPlayState()}"
                 app:layout_constraintBottom_toTopOf="@+id/btn_email"
                 app:layout_constraintEnd_toStartOf="@+id/btn_whatsapp"
                 app:layout_constraintHorizontal_bias="0.5"
