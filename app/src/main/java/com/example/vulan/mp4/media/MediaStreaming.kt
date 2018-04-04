@@ -12,7 +12,7 @@ class MediaStreaming {
     fun init() {
         try {
             mMediaPlayer = MediaPlayer()
-            mMediaPlayer.setDataSource("http://178.32.116.58:8080/24-6")
+            mMediaPlayer.setDataSource("")
             mMediaPlayer.prepareAsync()
         } catch (e: IOException) {
             e.stackTrace
